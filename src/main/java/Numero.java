@@ -2,6 +2,8 @@ public class Numero {
 
     int numerador;
     int denominador;
+    int cociente;
+    int resto;
 
     public Numero(int numerador, int denominador){
         this.numerador = numerador;
