@@ -8,6 +8,10 @@ public class Numero {
         this.denominador = denominador;
     }
 
+    public int sum(){
+        return numerador + denominador;
+    }
+
     public double result(int numerador, int denominador){
         return numerador / denominador;
     }
